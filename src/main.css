@@ -1,0 +1,44 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+html {
+  font-family: "Comic Sans MS";
+  font-family: "Segoe Print";
+  font-weight: bold;
+}
+
+.notes {
+  width: 29cm;
+  height: 20cm;
+  display: flex;
+  flex-wrap: wrap;
+  page-break-after: always;
+  border-top: dashed 1px #ddd;
+  border-left: dashed 1px #ddd;
+}
+
+.item {
+  height: 5cm;
+  width: 14.5cm;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  border-right: dashed 1px #ddd;
+  border-bottom: dashed 1px #ddd;
+  box-sizing: border-box;
+  padding: .5cm;
+}
+
+.item__text {
+  text-align: center;
+  font-size: 1.3cm;
+  line-height: 1.5cm;
+}
+
+.item__image {
+  max-width: 50%;
+  max-height: 100%;
+}
